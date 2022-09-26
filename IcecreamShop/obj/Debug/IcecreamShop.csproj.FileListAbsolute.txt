@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\IcecreamShop\bin\Debug\IcecreamShop.exe.config
+C:\Users\Admin\source\repos\IcecreamShop\bin\Debug\IcecreamShop.exe
+C:\Users\Admin\source\repos\IcecreamShop\bin\Debug\IcecreamShop.pdb
+C:\Users\Admin\source\repos\IcecreamShop\obj\Debug\IcecreamShop.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\IcecreamShop\obj\Debug\IcecreamShop.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\IcecreamShop\obj\Debug\IcecreamShop.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\IcecreamShop\obj\Debug\IcecreamShop.exe
+C:\Users\Admin\source\repos\IcecreamShop\obj\Debug\IcecreamShop.pdb
