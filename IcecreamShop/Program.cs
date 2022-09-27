@@ -36,16 +36,26 @@ namespace IcecreamShop
                     return;
             }
             Console.WriteLine("Выберите количество порций мороженого:");
-            int amount = Int32.Parse(Console.ReadLine());
-            int sum = money*amount;
-            Console.WriteLine($"С вас:{sum}, внесите оплату:");
-            int pay = Int32.Parse(Console.ReadLine());
-            if (pay == sum)
-                Console.WriteLine("Платёж прошел, наслаждайтесь мороженым");
-            else if (pay > sum)
-                Console.WriteLine($"Платёж прошел, ваша сдача: {pay - sum} руб. наслаждайтесь мороженым");
-            else
-                Console.WriteLine($"Денег недостаточно, вам нехватает {sum-pay} руб.");
+            try
+            {
+                int amount = Int32.Parse(Console.ReadLine());
+                int sum = money*amount;
+                Console.WriteLine($"С вас:{sum}, внесите оплату:");
+                int pay = Int32.Parse(Console.ReadLine());
+                if (pay == sum)
+                    Console.WriteLine("Платёж прошел, наслаждайтесь мороженым ^-^");
+                else if (pay > sum)
+                    Console.WriteLine($"Платёж прошел, ваша сдача: {pay - sum} руб. наслаждайтесь мороженым ^-^");
+                else
+                    Console.WriteLine($"Денег недостаточно, вам нехватает {sum-pay} руб.");
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Неверный формат!!!");
+            }
+
+           
+           
 
             Console.ReadLine();
         }
